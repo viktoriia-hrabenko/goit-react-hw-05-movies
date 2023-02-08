@@ -1,8 +1,8 @@
-import axios from 'axios';
+import axios from "axios";
 
-export const getMovieReviews = async movieId => {
+export const getMovieDetailsById = async movieId => {
   const config = {
-    url: `/movie/${movieId}/reviews`,
+    url: `/movie/${movieId}`,
     baseURL: 'https://api.themoviedb.org/3',
     params: {
       api_key: '69096c6df3db45b0788fb44bda629200',
@@ -10,5 +10,5 @@ export const getMovieReviews = async movieId => {
   };
 
   const response = await axios(config);
-  return response.data.results;
+  return response.data;
 };
