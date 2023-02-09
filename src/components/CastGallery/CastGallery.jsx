@@ -16,6 +16,7 @@ export const CastGallery = ({ credits }) => {
                       : `https://image.tmdb.org/t/p/w500/${profile_path}`
                   }
                   alt={name}
+                  style={{ weight: '400px', height: '372px' }}
                 />
                 <Paragraph>{name}</Paragraph>
                 <Paragraph>Character: {character}</Paragraph>

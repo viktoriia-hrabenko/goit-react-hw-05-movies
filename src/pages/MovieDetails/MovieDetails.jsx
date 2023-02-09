@@ -30,7 +30,6 @@ const MovieDetails = () => {
 
   return (
     <>
-      {/* AboutFilm */}
       <Section>
         {location.state ? (
           <LinkBack to={backLinkHref}>Go back</LinkBack>
@@ -51,11 +50,9 @@ const MovieDetails = () => {
           )}
         </WrapperDetails>
       </Section>
-      {/* Additional information */}
       <Section>
         <AdditionalInfo />
       </Section>
-      {/* Outlet */}
       <Suspense fallback={null}>
         <Outlet />
       </Suspense>

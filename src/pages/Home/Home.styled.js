@@ -5,8 +5,10 @@ export const Section = styled.section`
 `;
 
 export const Title = styled.h2`
-  margin-left: 20px;
+  margin-left: 45px;
   margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 28px;
 `;
 
 export const FilmsList = styled.ul`
@@ -17,9 +19,10 @@ export const FilmsList = styled.ul`
 
 export const FilmsItem = styled.li`
   margin-bottom: 5px;
+  font-size: 20px;
   :hover,
   :focus {
-    color: #2196f3;
+    color: #966844;
   }
 `;
 

@@ -5,7 +5,7 @@ export const Loader = () => {
   return (
     <Loading>
       <FallingLines
-        color="#4fa94d"
+        color="#966844"
         width="100"
         visible={true}
         ariaLabel="falling-lines-loading"

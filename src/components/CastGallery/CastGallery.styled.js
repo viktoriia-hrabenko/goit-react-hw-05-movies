@@ -7,6 +7,7 @@ export const CastList = styled.ul`
     margin: 0 auto;
     max-width: calc(100vw - 48px);
     padding: 0;
+    list-style: none;
 `;
 
 export const CastItem = styled.li`

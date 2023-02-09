@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const Title = styled.h2`
-  margin-left: 20px;
+  margin-left: 45px;
   margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 28px;
 `;
 
 export const MovieSearchList = styled.ul`
@@ -13,8 +15,9 @@ export const MovieSearchList = styled.ul`
 
 export const MovieSearchItem = styled.li`
   margin-bottom: 5px;
+  font-size: 20px;
   :hover,
   :focus {
-    color: #2196f3;
+    color: #966844;
   }
 `;

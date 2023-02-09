@@ -27,7 +27,6 @@ export const AboutFilm = ({
         alt={title}
         width="300"
       />
-
       <About>
         <Title>{title}</Title>
         <UserScore>

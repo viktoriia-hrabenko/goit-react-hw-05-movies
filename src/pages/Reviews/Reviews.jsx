@@ -28,7 +28,6 @@ import { Section } from './Reviews.styled';
     <>
       {isLoading && <Loader />}
       {error && <p>Oops, some error:{error}</p>}
-
       <Section>
         <ReviewsList reviews={reviews} />
       </Section>

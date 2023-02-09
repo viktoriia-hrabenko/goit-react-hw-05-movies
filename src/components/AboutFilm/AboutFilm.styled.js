@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const About = styled.div`
-  padding: 20px 10px;
+  padding: 20px 0px;
 `;
 
 export const Title = styled.h2`
@@ -20,6 +20,7 @@ export const Paragraph = styled.p`
 
 export const Genres = styled.ul`
   display: flex;
+  list-style: none;
   gap: 20px;
   justify-content: center;
 `;

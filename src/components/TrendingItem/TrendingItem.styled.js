@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 export const FilmsItem = styled.li`
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
   :hover,
   :focus {
-    color: #2196f3;
+    color: #966844;
   }
 `;
