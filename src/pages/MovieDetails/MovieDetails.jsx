@@ -1,7 +1,7 @@
 import { Suspense, useEffect, useState } from 'react';
 import { Outlet, useLocation, useParams } from 'react-router-dom';
 import { Loader } from 'components/Loader/Loader';
-import { getMovieDetailsById } from 'services/getMovieDetailsById';
+import { getMovieDetailsById } from 'services/api';
 import { AboutFilm } from 'components/MovieInfo/MovieInfo';
 import { AdditionalInfo } from 'components/AdditionalInfo/AdditionalInfo';
 import { Section, WrapperDetails, LinkBack } from './MovieDetails.styled';

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Loader } from 'components/Loader/Loader';
-import { getTrendingApi } from 'services/getTrendingApi';
+import { getTrendingApi } from 'services/api';
 import { Section, Title, FilmsList } from './Home.styled';
 import { TrendingItem } from 'components/TrendingItem/TrendingItem';
 

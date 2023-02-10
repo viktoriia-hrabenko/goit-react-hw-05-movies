@@ -3,7 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { Loader } from 'components/Loader/Loader';
 import { SearchForm } from 'components/SearchForm/SearchForm';
 import { SearchResults } from 'components/SearchResults/SearchResults';
-import { getMovieSearch } from 'services/getMovieSearch';
+import { getMovieSearch } from 'services/api';
 import { Section } from './Movies.styled';
 
 const Movies = () => {

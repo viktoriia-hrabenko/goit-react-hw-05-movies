@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { CastGallery } from 'components/CastGallery/CastGallery';
 import { Loader } from 'components/Loader/Loader';
-import { getMovieCredits } from 'services/getMovieCredits';
+import { getMovieCredits } from 'services/api';
 import { Section } from './Cast.styled';
 
 const Cast = () => {
