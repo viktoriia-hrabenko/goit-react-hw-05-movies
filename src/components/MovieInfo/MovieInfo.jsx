@@ -7,7 +7,7 @@ import {
   SecondaryTitle,
   Paragraph,
   Genres,
-} from './AboutFilm.styled';
+} from './MovieInfo.styled';
 
 export const AboutFilm = ({
   poster_path,
@@ -29,9 +29,7 @@ export const AboutFilm = ({
       />
       <About>
         <Title>{title}</Title>
-        <UserScore>
-          User Score: {Math.round(vote_average * 10)}%
-        </UserScore>
+        <UserScore>User Score: {Math.round(vote_average * 10)}%</UserScore>
         <SecondaryTitle>Overview</SecondaryTitle>
         <Paragraph>{overview}</Paragraph>
         <SecondaryTitle>Genres</SecondaryTitle>

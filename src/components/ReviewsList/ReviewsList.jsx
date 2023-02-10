@@ -33,6 +33,6 @@ export const ReviewsList = ({ reviews }) => {
   );
 };
 
-ReviewsList.propTypes={
-  reviews:PropTypes.arrayOf(PropTypes.shape())
-}
+ReviewsList.propTypes = {
+  reviews: PropTypes.arrayOf(PropTypes.shape()),
+};

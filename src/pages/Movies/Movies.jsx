@@ -35,7 +35,9 @@ const Movies = () => {
       <Section>
         <SearchForm setSearchParams={setSearchParams} />
       </Section>
-      {error && <p style={{ marginLeft: '50px' }}>Oops, something went wrong:{error}</p>}
+      {error && (
+        <p style={{ marginLeft: '50px' }}>Oops, something went wrong:{error}</p>
+      )}
       {movies.length > 0 && (
         <Section>
           <SearchResults movies={movies} />

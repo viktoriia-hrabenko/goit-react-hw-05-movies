@@ -5,7 +5,7 @@ import { getMovieReviews } from 'services/getMovieReviews';
 import { ReviewsList } from 'components/ReviewsList/ReviewsList';
 import { Section } from './Reviews.styled';
 
- const Reviews = () => {
+const Reviews = () => {
   const [reviews, setMovieReviews] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
